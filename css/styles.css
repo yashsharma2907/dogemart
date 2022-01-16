@@ -1,0 +1,137 @@
+#title{
+  background-color: #F9D371;
+    font-family: 'Vujahday Script', cursive;
+    padding-bottom: 100px;
+}
+.container-fluid{
+  padding: 3% 15%;
+}
+h1{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.navbar{
+  padding-bottom: 40px;
+}
+.navbar-brand
+{
+  font-size: 2rem;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+}
+.nav-item
+{
+  font-size: 1.25rem;
+  padding-right: 20px;
+  font-weight: bold;
+}
+.image-title{
+  width: 30%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 20%;
+}
+.download-btn{
+margin: 5% 3% 5% 0;
+}
+#features{
+  padding: 12% 12%;
+  background-color: #ffff;
+  position: relative;
+  z-index: 1;
+}
+.feature-box{
+  text-align: center;
+}
+h3{
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+}
+p{
+font-family: 'Vujahday Script', cursive;
+color: #7C99Ac;
+line-height: 2rem;
+text-align: center;
+
+}
+.icon{
+  color: #F9D371;
+  margin-bottom: 3rem;
+}
+.icon:hover{
+  color: #FFC900;
+}
+#testimonials
+{
+  text-align: center;
+  background-color: #F9D371;
+}
+.testimonial-image{
+  padding: 6% 3%;
+  width: 400px;
+  border-radius: 400px;
+}
+h2{
+  text-align: center;
+  padding: 32px;
+}
+#press{
+  background-color: #F9D371;
+  text-align: center;
+}
+.press-image{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+.pricing-text{
+  font-size: 40px;
+  font-weight: bold;
+}
+.pricing-card{
+  margin: 30px;
+}
+.card-space{
+  padding: 7% 12%;
+}
+.card-text{
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+}
+@media (max-width:1028px) {
+  #title{
+    text-align: center;
+  }
+  .image-title{
+    position: static;
+    width: 60%;
+    transform: rotate(0);
+  }
+  .testimonial-image{
+    width: auto;
+    padding-bottom: 7%;
+  }
+}
+#cta{
+  text-align: center;
+  background-color:#F9D371;
+  font-family: 'Ubuntu', sans-serif;
+  color: #ffff;
+}
+.cta-heading{
+  font-size:3.5rem;
+  line-height: 3.5rem;
+  padding: 60px;
+}
+.button{
+margin: 20px;
+}
+#footer{
+  text-align: center;
+  padding: 20px;
+}
+.social{
+  padding: 20px;
+}
+.Copyright{
+  font-size: 10px;
+}
